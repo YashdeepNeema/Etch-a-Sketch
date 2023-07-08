@@ -5,6 +5,10 @@ var gridBtn = document.getElementById("grid-btn");
 
 function gridCreate(){
     gridVal = parseInt(prompt("Nos. of squares per line:"))
+
+    //.................................................../*
+    
+    //----------------------------------------------------
     makeGrid(gridVal);
     return 1
 }
@@ -37,6 +41,11 @@ function makeGrid(gridVal){
         }
         container.appendChild(inner_div)
     }
+
+
+    //________________________________________________
+    
+    //___________________________________________________
 
 
         const pxl = document.querySelectorAll('.pixel')
